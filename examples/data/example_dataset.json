@@ -1,0 +1,184 @@
+{
+  "help": "https://open.canada.ca/data/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "association_type": [],
+    "audience": [
+      "general_public"
+    ],
+    "author": null,
+    "author_email": null,
+    "collection": "api",
+    "contributor": {
+      "fr": "",
+      "en": ""
+    },
+    "creator": "",
+    "creator_user_id": "2dc5a12f-2a6f-4822-8514-165ea6bb05d9",
+    "data_series_issue_identification": {
+      "fr": "",
+      "en": ""
+    },
+    "data_series_name": {
+      "fr": "",
+      "en": ""
+    },
+    "date_published": "2023-09-05 00:00:00",
+    "digital_object_identifier": "",
+    "display_flags": [],
+    "frequency": "as_needed",
+    "geographic_region": [],
+    "id": "2d90548d-50ef-4802-91f8-c59c5cf68251",
+    "imso_approval": "true",
+    "isopen": false,
+    "jurisdiction": "federal",
+    "keywords": {
+      "fr": [
+        "API"
+      ],
+      "en": [
+        "API"
+      ]
+    },
+    "license_id": "ca-ogl-lgo",
+    "license_title": "Open Government Licence - Canada",
+    "license_url": "https://open.canada.ca/en/open-government-licence-canada",
+    "maintainer": null,
+    "maintainer_contact_form": {},
+    "metadata_contact": {},
+    "metadata_created": "2023-09-06T19:11:53.997155",
+    "metadata_modified": "2024-11-20T21:31:57.143016",
+    "name": "2d90548d-50ef-4802-91f8-c59c5cf68251",
+    "notes": "This API provides live access to the CKAN portion of the Open Government Portal and Registry systems.\r\n\r\n### Portal: https://open.canada.ca\r\n\r\n * Our public data portal \r\n * Includes data federated from provinces and municipalities\r\n * Read-only API calls can be made without an API key\r\n *  Authorization required only for publishing federated data\r\n\r\n\r\n### Registry: https://registry.open.canada.ca\r\n\r\n* Accessible within the Government of Canada (GoC) network for collecting and publishing data from GoC departments\r\n* New datasets must be manually reviewed and approved by the Open Government team\r\n* Publishes approved datasets to the Production Portal automatically\r\n* User account or API key required for all operations",
+    "notes_translated": {
+      "fr": "Cette interface de programmation d’applications (API) permet d’accéder en direct à la partie CKAN du portail et des systèmes de registre du gouvernement ouvert.\r\n\r\n### Portail : https://open.canada.ca/fr\r\n\r\n * Notre portail de données publiques. \r\n * Il inclut des données fédérées par les provinces et les municipalités. \r\n  * Des appels API en lecture  seule peuvent être effectués sans clé API.\r\n   * Une autorisation est   requise uniquement pour la publication de données fédérées.\r\n\r\n### Registre : https://registry.open.canada.ca/fr\r\n\r\n* Il est accessible dans le réseau du gouvernement du Canada (GC).\r\n* Il permet la collecte et la publication de données provenant des ministères du GC.\r\n* Les nouveaux jeux de données doivent être examinés et approuvés manuellement par l’équipe du gouvernement ouvert.\r\n* Il permet la publication automatique des jeux de données approuvés sur le portail de production.\r\n* Un compte d’utilisateur ou une clé API est nécessaire pour toutes les opérations.",
+      "en": "This API provides live access to the CKAN portion of the Open Government Portal and Registry systems.\r\n\r\n### Portal: https://open.canada.ca\r\n\r\n * Our public data portal \r\n * Includes data federated from provinces and municipalities\r\n * Read-only API calls can be made without an API key\r\n *  Authorization required only for publishing federated data\r\n\r\n\r\n### Registry: https://registry.open.canada.ca\r\n\r\n* Accessible within the Government of Canada (GoC) network for collecting and publishing data from GoC departments\r\n* New datasets must be manually reviewed and approved by the Open Government team\r\n* Publishes approved datasets to the Production Portal automatically\r\n* User account or API key required for all operations"
+    },
+    "num_resources": 2,
+    "num_tags": 0,
+    "org_section": {
+      "fr": "",
+      "en": ""
+    },
+    "org_title_at_publication": {
+      "fr": "Secrétariat du Conseil du Trésor du Canada",
+      "en": "Treasury Board of Canada Secretariat"
+    },
+    "organization": {
+      "id": "81765FCD-32B3-4708-A593-3AA00705E62B",
+      "name": "tbs-sct",
+      "title": "Treasury Board of Canada Secretariat | Secrétariat du Conseil du Trésor du Canada",
+      "type": "organization",
+      "description": "",
+      "image_url": "",
+      "created": "2016-09-23T17:26:17.294681",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "81765FCD-32B3-4708-A593-3AA00705E62B",
+    "place_of_publication": [],
+    "portal_release_date": "2023-09-06",
+    "position_name": {},
+    "private": false,
+    "program_page_url": {
+      "fr": "",
+      "en": ""
+    },
+    "ready_to_publish": "true",
+    "restrictions": "unrestricted",
+    "spatial": "",
+    "spatial_representation_type": [],
+    "state": "active",
+    "subject": [
+      "science_and_technology"
+    ],
+    "title": "Open Government API",
+    "title_translated": {
+      "fr": "API du gouvernement ouvert ",
+      "en": "Open Government API"
+    },
+    "topic_category": [],
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-09-06T19:11:54.017448",
+        "data_quality": [],
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": null,
+        "format": "JSON",
+        "hash": "",
+        "id": "36830ed0-cd83-4fea-b2ae-15890116c68e",
+        "language": [
+          "en"
+        ],
+        "last_modified": "2023-09-06T18:37:50.734449",
+        "metadata_modified": "2024-11-20T21:31:57.151737",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "OpenAPI Specification",
+        "name_translated": {
+          "fr": " spécification OpenAPI",
+          "en": "OpenAPI Specification"
+        },
+        "package_id": "2d90548d-50ef-4802-91f8-c59c5cf68251",
+        "position": 0,
+        "resource_type": "api",
+        "size": 24531,
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://open.canada.ca/data/dataset/2d90548d-50ef-4802-91f8-c59c5cf68251/resource/36830ed0-cd83-4fea-b2ae-15890116c68e/download/openapi-en.json",
+        "url_type": "upload",
+        "validation_status": "",
+        "validation_timestamp": ""
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-09-06T19:11:54.017454",
+        "data_quality": [],
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": null,
+        "format": "JSON",
+        "hash": "",
+        "id": "3df30287-74a6-4887-967f-7f210abb7b93",
+        "language": [
+          "fr"
+        ],
+        "last_modified": "2023-09-06T18:50:09.479372",
+        "metadata_modified": "2024-11-20T21:31:57.151853",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "OpenAPI Specification",
+        "name_translated": {
+          "fr": "spécification OpenAPI",
+          "en": "OpenAPI Specification"
+        },
+        "package_id": "2d90548d-50ef-4802-91f8-c59c5cf68251",
+        "position": 1,
+        "resource_type": "api",
+        "size": 30911,
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://open.canada.ca/data/dataset/2d90548d-50ef-4802-91f8-c59c5cf68251/resource/3df30287-74a6-4887-967f-7f210abb7b93/download/openapi-fr.json",
+        "url_type": "upload",
+        "validation_status": "",
+        "validation_timestamp": ""
+      }
+    ],
+    "tags": [],
+    "groups": [],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+}
