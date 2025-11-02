@@ -36,16 +36,32 @@ orgs = api.organization_list(all_fields=True)
 ```
 
 ## Project Structure
+```
 CanadaOpenAPI/
-├── src/                    # Source code
-│   ├── api_client.py      # API client
-│   └── utils.py           # Utility functions
-├── examples/              # Example scripts
-│   └── basic_usage.py     # Basic usage examples
-├── notebooks/             # Jupyter notebooks
-├── data/                  # Data files (gitignored)
-├── tests/                 # Unit tests
-└── docs/                  # Documentation
+├── .devcontainer/
+│   └── devcontainer.json          # Codespaces config (keep as is)
+├── data/                           # Your data files
+├── docker/                         # ALL Docker configs in one place
+│   ├── jupyter/
+│   │   └── Dockerfile             # Jupyter-specific Dockerfile
+│   └── superset/
+|       ├── superset_config.py     # Superset python config
+│       ├── docker-compose.yml     # Superset docker-compose
+│       └── .env                   # Superset environment vars
+├── examples/
+│   └── basic_usage.py
+├── notebooks/
+│   └── *.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── api_client.py
+│   └── utils.py
+├── tests/
+├── .gitignore
+├── docker-compose.yml             # Main docker-compose (for Jupyter)
+├── requirements.txt               # Python dependencies
+└── README.md
+```
 
 ## API Documentation
 
