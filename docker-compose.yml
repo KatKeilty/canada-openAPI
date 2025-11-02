@@ -2,7 +2,7 @@ services:
   jupyter:
     build:
       context: .
-      dockerfile: docker/jupyter/Dockerfile
+      dockerfile: docker/jupyter/dockerfile
     ports:
       - "8889:8888"
     volumes:
