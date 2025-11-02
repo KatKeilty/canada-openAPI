@@ -33,3 +33,7 @@ Thumbs.db
 
 # Codespaces
 .devcontainer/
+
+# Docker
+docker/superset/.env
+docker/**/*.log

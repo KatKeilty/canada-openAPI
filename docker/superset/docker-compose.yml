@@ -1,0 +1,48 @@
+services:
+  redis:
+    image: redis:7
+    container_name: superset_redis
+    restart: unless-stopped
+    volumes:
+      - redis:/data
+
+  db:
+    image: postgres:14
+    container_name: superset_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: superset
+      POSTGRES_PASSWORD: superset
+      POSTGRES_USER: superset
+    volumes:
+      - db_home:/var/lib/postgresql/data
+
+  superset:
+    image: apache/superset:latest
+    container_name: superset_app
+    restart: unless-stopped
+    depends_on:
+      - db
+      - redis
+    environment:
+      - SUPERSET_SECRET_KEY=${SUPERSET_SECRET_KEY}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - SUPERSET_CONFIG_PATH=/app/superset_config.py
+    ports:
+      - "8088:8088"
+    volumes:
+      - ../../data:/app/data
+      - ./superset_config.py:/app/superset_config.py
+    command: |
+      bash -c '
+      pip install redis flask-caching Pillow
+      superset db upgrade
+      superset fab create-admin --username admin --firstname Admin --lastname User --email admin@superset.com --password admin
+      superset init
+      /usr/bin/run-server.sh
+      '
+
+volumes:
+  redis:
+  db_home:
