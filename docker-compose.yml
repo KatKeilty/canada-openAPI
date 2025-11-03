@@ -12,4 +12,5 @@ services:
       - ./examples:/app/examples
     environment:
       - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN}
     container_name: canadaopenapi-jupyter
