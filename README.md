@@ -97,18 +97,18 @@ api.download_resource(resource_url, "data/downloaded_data.csv")
 
 ## License
 
-#Data accessed through this API is licensed under the Open Government Licence - Canada
+# Data accessed through this API is licensed under the Open Government Licence - Canada
 
-##Open Government Licence - Canada
+## Open Government Licence - Canada
 
 You are encouraged to use the Information that is available under this licence with only a few conditions.
 
-#Using Information under this licence
+# Using Information under this licence
 
     Use of any Information indicates your acceptance of the terms below.
     The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information, including for commercial purposes, subject to the terms below.
 
-#You are free to:
+# You are free to:
 
     Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium, mode or format for any lawful purpose.
 
